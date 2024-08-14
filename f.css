@@ -1,0 +1,428 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    position: relative;
+ align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+.parent1{
+    margin-top: 80px;
+    gap: 30px;
+    display: flex;
+}
+.chid1{
+    height: 250px;
+    width: 350px;
+   display: flex;
+   align-items:center ;
+   justify-content: center;
+   flex-direction: column;
+
+   
+}
+.deve{
+    font-size: 50px;
+    position: relative;
+    margin-right: 80px;
+   
+    -webkit-text-stroke: 0.3px #12F7D6 ;
+    font-family: "Lobster Two", sans-serif;
+ 
+}
+.deve::before{
+    content:"Development";
+   
+    top: 0;
+    left: 0;
+    width: 0%;
+    position: absolute;
+ 
+    height: 100%;
+    color: #12F7D6;
+ overflow: hidden;
+animation: animate 5s linear;
+}
+@keyframes animate {
+    0%{
+        width: 0;
+        border: none;
+    }
+    
+    100%{
+        width: 100%;
+        border: none;
+    }
+}
+
+.chid1 p{
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    color: white;
+}
+.chid1 button{
+    height: 30px;
+    width: 200px;
+    background-color: #12F7D6;
+    color: rgb(0, 0, 0);
+    font-family: "Sansita Swashed", system-ui;
+    border: none;
+    
+    border-radius: 12px;
+    margin-top: 20px;
+}
+.chid1 button:hover{
+    background-color: white;
+    transition: 1s;
+    border: 2px solid #12F7D6;
+}
+.chid2{
+height:250px ;
+width: 250px;
+border: 2px solid   #12F7D6 ;
+box-shadow: 1px 2px 20px #12F7D6;
+border-radius: 50%;
+background: url(code3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.mian{
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #282F37;
+}
+.mian h1{
+    font-size: 30px;
+    color: #12F7D6;
+    font-family: "Concert One", sans-serif;
+}
+.mian ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 5px;
+}
+.mian p{
+    font-family: "Great Vibes", cursive;
+    color: white;
+    margin-top: 10px;
+}
+.l{
+    text-decoration: none;
+    color: #12F7D6;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+justify-content: center
+;   
+background-image: linear-gradient(to right bottom, #0021ff, #6d00a0, #5f0056, #380023, #000000);
+}
+.box{
+    height: 300px;
+    width: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+.main h1{
+    font-family: "Concert One", sans-serif;
+    font-size: 40px;
+    color: white;
+}
+.co{
+    height: 80px;
+    width: 80px;
+}
+.box p{
+ margin-top: 10px;
+    color: gainsboro;
+    font-family: "Oswald", sans-serif;
+}
+.btn{
+    height: 40px;
+    width: 200px;
+    background-color: #6d00a0;
+    border: none;
+    border-radius: 10px;
+    color: white;
+  font-style: italic;
+font-size: 15px; 
+    margin-top: 15px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.cont{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+background-image: linear-gradient(to right, #b083ec, #9d6fea, #875ce8, #6c4ae6, #4938e4);;
+}
+.ac{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    padding: 5px;
+    background-color: #00b4cf;
+}
+.ac h1{
+    color: white;
+    font-size: 50px;
+    font-family: "Lilita One", sans-serif;
+}
+.ac p{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    color: white;
+    font-style: italic;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.w1{
+    height: 400px;
+    width: 300px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+.text{
+    font-family: "Playwrite ZA", cursive;
+    color: black;
+    font-size: 25px;
+}
+.data{
+    height: 15px;
+    width: 250px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border:1px solid rgb(209, 195, 195);
+}
+.data1{
+    height: 35px;
+    width: 250px;
+    margin-top: 10px;
+    background-color:#00b4cf;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.data1:hover{
+    background-color: white;
+ 
+ transition: 1s;   color: black;
+ border: 1px solid #00b4cf
+ ;
+}
+.data2{
+    height: 35px;
+    width: 250px;
+    margin-top: 10px;
+    background-color:#00b4cf;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-weight: 400;
+ margin-right: 10px;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.mainbox{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+ 
+}
+.dba{
+    height: 250px;
+    width: 630px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+   
+
+}
+.db1{
+    height: 250px;
+    border-radius: 10px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 1px 2px 20px gray;
+}
+.db2{
+    height: 250px;
+    border-radius: 10px;
+    width: 200px;
+    display: flex;
+   
+    align-items: center;
+    box-shadow: 1px 2px 20px gray;
+    justify-content: center;
+    background-image: linear-gradient(to right, #70b6ed, #5cabec, #48a0eb, #3295ea, #178ae8);
+    flex-direction: column;
+}
+.mainbox{
+    font-family: "Pacifico", cursive;
+    font-size: 25px;
+}
+.circle1{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #eb4d81, #eb4176, #eb346b, #ea2460, #e80b54);
+    background-color: black;
+    border-radius: 50%;
+}
+.circle2{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #c7e3ae, #b0e48f, #93e470, #6ce550, #23e52a);
+    background-color: black;
+    border-radius: 50%;
+}
+.circle3{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    color: black;
+    justify-content: center;
+    flex-direction: column;
+   
+    background-color: white;
+    border-radius: 50%;
+}
+.p1{
+    margin-top: 10px;
+    font-size: 9px;
+    font-family: "Noto Sans", sans-serif;
+    margin-left: 10px;
+    font-style: italic;
+}
+.f1{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: "Concert One", sans-serif;
+}
+.op{
+    height: 30px;
+    width: 150px;
+    background-image: linear-gradient(to right, #eb4d81, #eb4176, #eb346b, #ea2460, #e80b54);
+    margin-top: 10px;
+    border-radius: 10px;
+border: none;
+
+}
+.op1{
+    color: 
+    white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.opp{
+    height: 30px;
+    width: 150px;
+    background-image: linear-gradient(to right, #c7e3ae, #b0e48f, #93e470, #6ce550, #23e52a);
+    margin-top: 10px;
+    border-radius: 10px;
+border: none;
+
+}
+.f11{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+    color: white;
+    font-family: "Concert One", sans-serif;
+}
+.p11{
+    margin-top: 10px;
+    font-size: 9px;
+    font-family: "Noto Sans", sans-serif;
+    margin-left: 10px;
+    font-style: italic;
+    color: white;
+}
+.opp1{
+    height: 30px;
+    width: 150px;
+    background-color: white;
+   
+    margin-top: 10px;
+    border-radius: 10px;
+border: none;
+}
+.op2{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
